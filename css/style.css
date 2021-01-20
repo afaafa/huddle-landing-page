@@ -1,0 +1,99 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    background-size: cover;
+    width: 100%;
+    
+    
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 50px;
+}
+
+p {
+    color: white;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 50px;
+    margin: 50px 30px;
+  }
+
+.logo {
+    width: 250px;
+    margin-top: 20px;
+  }
+
+  .wrapper {
+    height: 100%;
+    margin-top: 20px;
+    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+    margin-right: 70px;
+}
+
+.content-left {
+    padding-right: 3rem;
+    display: block;
+    margin-top: 50px;
+}
+
+.content-left img {
+    width: 800px;
+}
+
+.content-right {
+    margin-right: 70px;
+    margin-bottom: 150px;
+}
+
+.btn-register {
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    padding: 15px;
+    width: 200px;
+    font-size: 20px;
+    height: 55px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    box-shadow: 1px 10px 13px hsl(257deg 40% 33%);
+}
+
+.btn-register:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+.contact {
+    margin-left: 76em;
+    margin-top: 60px;
+}
+
+.icon {
+  border: 2px solid white;
+  padding: 20px;
+  border-radius: 100%;
+  margin-right: 15px;
+  display: inline-flex;
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+.icon:hover{
+    border: 2px solid hsl(300, 69%, 71%);
+    color: hsl(300, 69%, 71%);
+}
+
+.attribution {
+    text-align: center;
+}
