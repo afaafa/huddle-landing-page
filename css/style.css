@@ -96,4 +96,93 @@ p {
 
 .attribution {
     text-align: center;
+    padding-left: 60px;
 }
+
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    * {
+        box-sizing: border-box;
+      }
+
+    body {
+        background-image: url(../images/bg-mobile.svg);
+        background-color: hsl(257, 40%, 49%);
+        width: 100%;
+    }
+
+
+    .wrapper {
+      
+    }
+    
+    
+  }
+  
+  /* Untuk Smartphone */
+  @media only screen and (max-width: 670px) {
+
+    * {
+        box-sizing: border-box;
+      }
+
+    body {
+        background-image: url(../images/bg-mobile.svg);
+        background-color: hsl(257, 40%, 49%);
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .wrapper {
+        width: 100%;
+        height: auto;
+        display: grid;
+        text-align: center;
+      }
+
+      .content-left {
+        width: 31%;
+        display: grid;
+      }
+
+      .content-left img {
+        width: 370%;
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+
+    .content-right {
+        width: 80%;
+        padding-left: 6%;
+        margin-top: 60px;
+    }
+
+      h1 {
+        font-size: 40px;
+      }
+
+      p {
+        font-size: 25px;
+      }
+   
+    .btn-register {
+      width: 60%;
+    }
+    
+    .contact {
+        display: table-cell;
+        padding-left: 18em;
+      }
+
+    .icon {
+    margin-bottom: 10px;
+    font-size: 21px;
+    display: inline-flex;
+    padding: 10px;
+    }
+
+    .attribution {
+        font-size: 16px;
+    }
+    
+  }
