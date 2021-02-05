@@ -26,13 +26,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    display: block;
     background-position-x: 2%;  
-}
-
-
-img {
-    max-width: 100%;
 }
 
 h1, p {
@@ -128,11 +122,12 @@ h1, p {
   .content-right {
     max-width: 600px;
     margin-bottom: 10em;
+    margin-right: 20px;
   }
 
   h1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 45px;
+    font-size: 40px;
     padding-bottom: 23px;
   }
 
@@ -226,8 +221,10 @@ h1, p {
   }
 
   .icon {
-    font-size: 10px;
-    padding: 9px;
+    font-size: 13px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
     margin-right: 10px;
     border: 1px solid white;
   }
