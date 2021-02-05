@@ -42,6 +42,10 @@ h1, p {
   margin-bottom: 6em;
 }
 
+.content-left img {
+  width: 100%;
+}
+
 .btn-register {
   font-family: 'Poppins', sans-serif;
   background-color: white;
@@ -183,6 +187,7 @@ h1, p {
   .header-img {
     padding: 0 4em;
     margin-top: 1em;
+    width: 100%;
   }
 
   .content-left {
